@@ -1,0 +1,240 @@
+\documentclass[a4paper, 10pt]{article}
+\usepackage[margin = 1in]{geometry}
+\usepackage{amsmath}
+\usepackage{tabularx}
+\usepackage{framed}
+\setlength{\parindent}{0em}
+\newcolumntype{L}{>{\arraybackslash}m{10cm}}
+
+\begin{document}
+
+\section*{Topic 8 - Temperature and ideal gases}
+
+
+\section{Temperature and thermal equilibrium}
+
+\subsection{Heat}
+\begin{framed}
+\textbf{Heat} is the energy transferred between objects because of the temperature difference between them
+\end{framed}	
+\begin{itemize}
+   \item when 2 objects are ni thermal contact, heat flows from an object of higher temperature to an object at a lower temperature until their temperatures equalize at some intermediate value
+\end{itemize}	
+
+\subsection{Thermal equilibrium}
+\begin{framed}
+   Two objects are in a state of \textbf{thermal equilibrium} when there is \textbf{no net flow of heat} between them  \\
+   Two objects are in thermal equilibrium if and only if they are at the \textbf{same temperature}
+\end{framed}	
+
+\subsection{Zeroth law of thermal dynamics}
+\begin{framed}
+   if object A and B are each separately in thermal equilibrium with object C, then A and B are also in thermal equilibrium with each other
+\end{framed}	
+
+\section{Temperature scales}
+A temperature scale is a system of measuring temperature based on some thermometric property of a substance. \\
+Criteria for a suitable thermometric property
+\begin{enumerate}
+   \item Property \textbf{varies continuously and uniquely} with temperature
+   \item Change in property must be \textbf{large} enough to enable accurate measurements of temperature (ensure sensitivity of thermometer)
+   \item The value of thermometric property at any temperature within its working range must be \textbf{reproducible}
+\end{enumerate}	
+
+\subsection{Centigrade scale}
+Empirical centigrade scale 
+\begin{itemize}
+   \item lower fixed point, 0$^{\circ}$C : \textbf{ice point} (temperature of pure ice in equilibrium with water at standard atmospheric pressure of 101.3kPa)
+   \item upper fixed point, 100$^{\circ}$C : \textbf{steam point} (temperature of steam in equilibrium with boiling water at standard atmospheric pressure of 101.3kPa)
+   \item divide the range into 100 degrees
+\end{itemize}	
+
+An empirical scale is established by
+\begin{enumerate}
+   \item taking the value of a thermometric property, $X$, at a ice and steam fized points, $X_0$  and $X_{100}$ 
+   \item dividing the range of values $(X_{100} - X_0)$ into a number of equal steps / degrees
+   \item assume that the thermometric property X vaies linearly with temperature, draw a calibration graph of $X$ against temperature, $\theta$ 
+   \item Measure thermometric property at unknown temperature $\theta$ and call it $X_{\theta}$ the unknown temperature $\theta$ in $^{\circ}C$ is then computed from 
+      \[
+         \theta = \frac{(X_{\theta}- X_0)}{(X_{100} - X_0)} \times 100^{\circ} C
+      \]
+\end{enumerate}	
+
+\subsection{Thermodynamic temperature scale}
+\textbf{Absolute zero}
+\begin{framed}
+   the absolute zero is defined as the zero pint (0K) of the thermodynamic temperature scale
+\end{framed}
+
+\textbf{Thermodynamic temperature scale \ Kelvin scale}
+\begin{itemize}
+   \item lower point: absolute zero
+   \item upper point: triple point of water, (0.01$^{\circ}$C, or 275.16K)
+\end{itemize}	
+
+\begin{framed}
+   The kelvin is defined as $\frac{1}{275.16}$ of the thermodynamic temperature of the triple point of water
+\end{framed}	
+
+\section{Ideal gas equation}
+Ideal gas is an idealization of the real gas in which potential energy of intermolecular interaction is 0. 
+
+\begin{framed}
+   An \textbf{ideal gas} is a gas which obeys the equation of state $pV = nRT$  at all pressures, volume, temperatures
+\end{framed}	
+
+\subsection{equation of state / ideal gas equation}
+The ideal gas equation can be derived from 
+\[
+\frac{V_1}{T_1} = \frac{V_2}{T_2}
+\]
+\[
+   p_1V_1 = p_2 V_2
+\]
+Hence, 
+\[
+pV = nRT
+\]
+where R is a molar gas constant $R = 8.314J K^{-1} mol^{-1}$ 
+
+
+\textbf{Avogadro's constant, $N_A$} is defined as the number of atoms in a 12 grams of a carbon-12 sample
+\[
+   N_A = 6.023 \times 10 ^{23}
+\]
+
+\textbf{Alternative forms of the ideal gas equation}
+\[
+pV = \frac{N}{N_A} RT
+\]
+
+\[
+pV = NkT 
+\]
+where $k = \frac{R}{N_A}$ is the Boltzmann constant, $k = 1.38 \times 10^{23}$ 
+
+\section{Kinetic theory of gases}
+
+Molecular model of an ideal gas makes the following assumptions
+\begin{enumerate}
+   \item molecules have \textbf{negligible volume}
+   \item molecules exert \textbf{no intermolecular forces} on one another, except during collisions
+   \item molecules move about in random motion in straight lines at constant speed
+   \item all collisions are completely elastic
+   \item the molecules of a particular gas are identical
+   \item there are sufficiently large number of molecules, so only average behaviour need to be considered
+\end{enumerate}	
+
+
+\textbf{Derivation of model} \\
+
+For an ideal gas in a cubic container with lenght $d$  \\
+Let mass of each molecule be $m$. For one molecule with velocity $c_X$ in the x-direction, upon colliding with the wall, its velocity changes from $c_X$ to $-c_X$, the change in momentum is given by
+\[
+   \Delta p = (-mc_X) - mc_X = -2 mc_X
+\]
+
+Assuming no intermolecular collision, when the particle collides with the wall it would have travelled a distance of $2d$ in the x-direction. the time interval between collisions is thus given by
+
+\[
+\Delta t = \frac{2d}{c_X}
+\]
+
+By Newton's second law, the rate of change of momentum is given by
+\[
+   F_{\text{on molecule}} = \frac{\Delta P}{\Delta t} = -2mc_X \times \frac{c_X}{2d} = -\frac{mc_X^w}{d}
+\]
+
+By Newton's third law, the force that the molecule acts on the wall is 
+\[
+   F_{\text{on wall}} = - F_{\text{on molecule}} = \frac{mc_X^2}{d}
+\]
+
+Total force is thus
+\[
+   F_{tot} = \frac{m}{d}(c_{X1}^2 + c_{X2}^2 + c_{X3}^2 ... c_{XN}^2)
+\]
+
+The mean-square-speed in the x direction is defined as 
+\[
+\langle c_x^2 \angle = \frac{c_{X1}^2 + c_{X2}^2 + c_{X3}^2 ... c_{XN}^2}{N}
+\]
+
+Hence 
+\[
+   F_{tot} = \frac{Nm}{d} \langle c_x^2 \rangle
+\]
+
+Total pressure $p$ on the wall is thus
+\[
+   p = \frac{F}{A} = \frac{F_{tot}}{d^2} = \frac{Nm}{d^3} \langle c_x^2 \rangle = \frac{Nm}{V}\langle c_x^2 \rangle 
+\]
+
+By pythagoras' theorem
+\[
+c^2 = c_x^2 + c_y^2 + c_z^2
+\]
+
+Taking the average
+\[
+\langle c^2 \rangle = \langle c_x^2 \rangle + \langle c_y^2 \rangle + \langle c_z^2 \rangle
+\]
+\[
+\langle c_x^2 \rangle = \frac{1}{3} \langle c^2 \rangle
+\]
+
+Substituting, 
+\begin{framed}
+\[
+pV = \frac{1}{3} Nm \langle c^2 \rangle
+\]
+where $N$ is the number of gas molecules \\
+$m$ is the mass of one molecule \\
+$\langle c^2 \rangle$ is the mean-square-speed of the gas
+\end{framed}	
+
+Define \textbf{root-mean-square} speed as 
+\[
+   c_{rms} = \sqrt{\langle c^2 \rangle} = \sqrt{\frac{c_1^2 + c_2^2 + c_3^2 ... c_N^2}{N}}
+\]
+
+
+Combining $pV = NkT$  and $pV = \frac{1}{3}Nm\langle c^2 \rangle$ 
+\[
+pV = NkT = \frac{1}{3}Nm \langle c^2 \rangle
+\]
+
+\[
+\frac{1}{2}m \langle c^2 \rangle = \frac{3}{2} kT
+\]
+The LHS is the average translational KE of one gas molecule 
+\begin{framed}
+   \[
+      \angle E_k \rangle = \frac{1}{2}m \langle c^2 \rangle = \frac{1}{2}mc_{rms}^2 = \frac{3}{2}kT
+   \]
+   
+\end{framed}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}	

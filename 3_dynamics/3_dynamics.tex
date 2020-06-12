@@ -1,0 +1,175 @@
+\documentclass[a4paper, 10pt]{article}
+\usepackage[margin = 1in]{geometry}
+\usepackage{amsmath}
+\usepackage{tabularx}
+\usepackage{framed}
+\setlength{\parindent}{0em}
+\usepackage{import}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{xcolor}
+
+\newcommand{\incfig}[2][1]{%
+    \def\svgwidth{#1\columnwidth}
+    \import{./figures/}{#2.pdf_tex}
+}
+
+\pdfsuppresswarningpagegroup=1
+
+\begin{document}
+
+\section*{Topic 3 - Dynamics}
+\section{Newton's first law of motion}
+
+\begin{framed}
+   \textbf{\textit{Newton's First law of motion}}: a body continues in its state of rest or uniform motion in a straight line unless acted upon by a resultant external force
+\end{framed}	
+
+\subsection{Inertia}
+The inertia of a body is its reluctance to a change in motion  \\
+
+The mass $m$ of a body is an intrinsic property which resists change in motion
+
+\subsection{Equilirbium}
+the conditions necessary for equilibrium of a body are 
+\begin{itemize}
+   \item resultant force acting on body is 0
+   \item resultant torque on the body about any axis is 0
+\end{itemize}	
+
+
+\section{Newton's second law of motion and Momentum}
+\begin{framed}
+   \textbf{\textit{Newton's second law of motion}}: rate of change of momentum of a body is proportional to the resultant force acting on it and occurs in the direction of the force
+  \[
+     F_{net} \propto \frac{d(p)}{dt}
+  \]
+   
+\end{framed}	
+
+\subsection{Momentum}
+Momentum of a body is defined as the product of its mass $m$ and velocity $v$, ie 
+\[
+   p = mv 
+\]
+
+\subsection{Newton's second law}
+\begin{align*}
+   F_{net} &\propto \frac{d(p)}{dt} \\
+   F_{net} &= k\frac{d(p)}{dt} \text{, and since k = 1 when quantities in S.I. units, } \\
+   F_{net} &=  \frac{d(p)}{dt} = \frac{d(mv)}{dt} \\
+           &= m\frac{dv}{dt} + v\frac{dm}{dt} 
+\end{align*}	
+
+Hence 
+\begin{itemize}
+   \item when mass is constant, $F_{net} = m\frac{dv}{dt}$ 
+   \item when velocity is constamt, $F_{net} = v\frac{dm}{dt}$ 
+\end{itemize}
+
+\section{Newton's third law of motion}
+\begin{framed}
+   \textbf{\textit{Newton's Third law of motion}}: if body A exerts a force on body B, then body B exerts an equal but opposite force on A 
+   \[
+      |F_{by\  A\  on\  B}| = |F_{by\  B\  on\  A}|
+   \]
+   \[
+      F_{AB} = -F_{BA}
+   \]
+\end{framed}	
+
+\section{Impulse and momentum change}
+Impulse is equal to the change in momentum, defined as the product of a force $F$ acting on an object and the time $\Delta t$ for which the force acts
+
+\[
+   F = \frac{\Delta p}{\Delta t}
+\]
+\[
+\Delta p = F \Delta t
+\]
+
+Impulse can be found as the area under the $F-t$ graph
+\section{Collisions and Conservation of momentum}
+By Newton's Third Law, when $A$ collides with $B$, 
+\[
+F_{BA} = -F_{AB}  
+\]
+since time interval $dt$ is the same, impulse on $A$ is opposite to impulse on $B$ 
+\[
+   \int_{t_i}^{t_f} F_{BA} dt = - \int_{t_i}^{t_f} F_{AB} dt
+\]
+
+since impulse = change in momentum
+\[
+  \Delta p_a = \Delta p_b
+\]
+\[
+   m_A v_A + m_A u_A = -(m_B v_B - m_B u_B)
+\]
+\[
+   m_A u_A + m_B u_B = m_A v_A + m_B v_B
+\]
+
+\begin{center}
+   net initial momentum of bodies = net final momentum of bodies
+\end{center}	
+
+\begin{framed}
+  \textbf{The principle of conservation of linear momentum}: when bodies in a system interact, total momentum of the system remains constant, provided no net external force acts on the system   
+
+  \[
+  \sum m_i u_i = \sum m_i v_i
+  \]
+  
+\end{framed}	
+
+Types of collision
+\begin{itemize}
+   \item \textbf{Elastic collision} total KE conserved
+   \item \textbf{Inelastic collision} total KE not conserved
+   \item \textbf{Completely inelastic collision} particles have the same final velocity (particles stick together and move off together)
+\end{itemize}	
+
+for elastic collision, by principle of conservation of linear momentum
+\[
+m_1 u_1 + m_2 u_2 = m_1 v_1 + m_1 v_2
+\]
+
+and since that total KE remains constant
+\[
+   \frac{1}{2} m_1 u_1^2 + \frac{1}{2} m_2 u_2^2 =
+   \frac{1}{2} m_1 v_1^2 + \frac{1}{2} m_2 v_2^2
+\]
+\[
+   m_1 u_1^2 + m_2 u_2^2 =
+   m_1 v_1^2 + m_2 v_2^2
+\]
+
+rearranging the expressions
+\begin{align*}
+   m_1 (u_1 - v_1) = m_2 (v_2 - u_2) \\
+   m_1 (u_1^2 - v_1^2) = m_2(v_2^2 - u^2_2)
+\end{align*}	
+dividing the equations to remove $m_1$ and $m_2$ 
+\[
+ \frac{u_1^2 - v_1^2}{u_1 - v_1} = \frac{u_2^2- v2^2}{v_2 - u_2}
+\]
+\[
+   \frac{(u_1+v_1)(u_1 -v_1)}{u_1 - v_1} = \frac{(v_2+u_2)(v_2 - u_2)}{v_2 - u_2}
+\]
+\[
+u_1 + v_1 = v_2 + u_2
+\]
+\[
+u_1 - u_2 = v_2 - v_1
+\]
+\begin{center}
+   relative speed of approach = relative speed of separation
+\end{center}	
+
+
+
+
+
+
+\end{document}	

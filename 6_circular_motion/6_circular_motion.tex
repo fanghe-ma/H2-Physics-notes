@@ -1,0 +1,87 @@
+\documentclass[a4paper, 10pt]{article}
+\usepackage[margin = 1in]{geometry}
+\usepackage{amsmath}
+\usepackage{tabularx}
+\usepackage{framed}
+\setlength{\parindent}{0em}
+\newcolumntype{L}{>{\arraybackslash}m{10cm}}
+
+\begin{document}
+
+\section*{Topic 6 - Circular Motion}
+\section{Kinematics of circular motion}
+\textbf{Angular displacement} is the angle which an object makes with reference to a line
+\begin{itemize}
+   \item the unit of angular displacement is \textbf{radian}
+   \item the radian is the angle subtended by an arc length equal to the radius of the arc 
+   \item any angle $\theta$ measured in radians is defined by
+      \[
+      \theta = \frac{s}{r}
+      \]
+      where $s$ is the arc length and $r$ is the radius of circle
+\end{itemize}	
+
+\textbf{Angular velocity $\omega$ } of a body is defined as the rate of change of angular velocty wrt time
+\[
+\omega= \frac{d \theta}{dt}
+\]
+
+\textbf{Period, T} of an object in circular motion is the time taken for one complete revolution
+\textbf{Frequency, F} of an object in circular motion is the number of complete revolutions made per unit time
+
+\[
+   f = \frac{i}{T}
+\]
+
+\textbf{Relationship between angular velocity and linear velocity}
+
+For an object in uniform circular motion at angular velocity $\omega$ with radius $r$ and linear velocity $v$ at any point in its path \\
+
+since 
+\[
+s = r \theta
+\]
+
+differetiating wrt to t on both sides
+\[
+\frac{ds}{dt} = r \frac{d\theta}{dt}
+\]
+hence
+\[
+v = rw
+\]
+
+\textbf{relationship between period, angular velocity and frequency} \\
+since time taken for one complete revoltion is period $T$, \\
+and the angular displacement for one complete revolution is $2\pi$ 
+\[
+\omega = \frac{2\pi}{T} = 2 \pi f 
+\]
+
+\textbf{relationship between linear speed and period}
+\[
+   v = \frac{\text{circumference of the circle}}{\text{period}} = \frac{2\pi r}{T}
+\]
+
+
+\section{Dynamics of circular motion}
+
+For an object in uniform circular motion
+
+\begin{itemize}
+    \item \textbf{object experiences a force because} although object is moving at constant speed, its velocity is constantly changing because its direction of motion is constantly changing. Hence it means object is undergoing acceleration and hence it must be acted upon by a force \\
+    \item the force or acceleration is \textbf{perpendicular to the motion of the object \ towards the center of the circle}, since the object is moving at constant speed there must not be any component of the force in the direction of the motion of the object, otherwise it will increase or decrease the speed of the object. Hence any force / acceleration must be perpendicular to the direction of motion
+\end{itemize}
+
+\textbf{Centripetal acceleration and centripetal force}
+
+the magnitude of centripetal acceleration is 
+\[
+   a = v\omega = r \omega^2 = \frac{v^2}{r}
+\]
+and since $F = ma$, the centripetal force acting on the object is 
+
+\[
+F = ma = mv \omega = mr\omega^2 = \frac{mv^2}{r}
+\] 
+\end{document}	

@@ -1,0 +1,82 @@
+\documentclass[a4paper, 10pt]{article}
+\usepackage[margin = 1in]{geometry}
+\usepackage{amsmath}
+\usepackage{tabularx}
+\setlength{\parindent}{0em}
+
+\begin{document}
+
+\section*{Topic 2 - Kinematics}
+
+\section{Basic quantities}
+
+\begin{center}
+   \begin{tabularx}{\textwidth}{X|X}
+      \hline
+      Scalar & Vector \\
+      \hline
+      \hline
+      \textbf{\textit{Distance, x}} & \textbf{\textit{Displacement, s}} \\
+      the total length of path followed by object & The distance moved in a specified direction from a reference point \\
+      \hline
+      \textbf{\textit{speed, v}} & \textbf{\textit{velocity, v}} \\
+      instantaneous speed is the rate of change of distance wrt time
+      & instantaneous velocity is the rate of change of displacement wrt time \\
+      $v = \frac{dx}{dt}$
+      &
+      $v = \frac{ds}{dt}$
+       \\
+      \hline
+      average speed is the total distance travelled over total time taken &
+      average velocity is the total change in displacement over total time taken \\
+      \[
+         \langle v \rangle = \frac{\Delta x}{\Delta t}
+      \] &
+      \[
+         \langle v \rangle = \frac{\Delta x}{\Delta t}
+      \] \\
+      \hline
+      & \textbf{\textit{Acceleration, a}} \\
+      & instantaneous acceleration is the rate of change of velocity wrt time \\
+      & \[
+         a = \frac{dv}{dt}
+      \] \\ 
+      \hline
+      & Average acceleration is the total change in velocity over total time \\
+      & \[
+         \langle a \rangle = \frac{\Delta v}{\Delta t}
+      \]  \\
+   \end{tabularx}
+\end{center}
+
+\section{Equations for uniformly accelerated motion}
+\begin{eqnarray}
+   v = u + at \\
+   s = \frac{1}{2} (u+v) t \\
+   s = ut + \frac{1}{2} at^2 \\
+   v^2 = u^2 + 2as
+\end{eqnarray}	
+
+\section{kinematics of free fall and the effect of air resistance}
+objects in the uniform gravitational field of earth undergo uniformly accelerated motion downwards, and experience a constant acceleration with magnitude
+\[
+   g = 9.81ms^{-2}
+\]
+
+
+Objects experience air resistance, whose magnitude is proportional to velocity and whose direction is opposite to velocity
+\begin{itemize}
+   \item on an object's way up, it experiences air resistance in the direction of downward acceleration due to gravity, hence \[
+   a_{up} > g
+   \]
+   \item on its way down, it experiences air resistance opposite gravity, hence \[
+         a_{down} < g
+   \]
+   
+\end{itemize}	
+
+
+\section{non-linear motion}
+
+
+\end{document}	

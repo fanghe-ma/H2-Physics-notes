@@ -1,0 +1,231 @@
+\documentclass[a4paper, 10pt]{article}
+\usepackage[margin = 1in]{geometry}
+\usepackage{amsmath}
+\usepackage{tabularx}
+\usepackage{framed}
+\setlength{\parindent}{0em}
+\newcolumntype{L}{>{\arraybackslash}m{10cm}}
+
+
+\begin{document}
+
+\section*{Topic 5 - Work, Energy, Power}
+
+\section{Work}
+\subsection{Work done by a constant force}
+For a constant force $F$ that acts at angle $\theta$ to the horizontal and displaces an object horizontally to the right over a displacement $s$, the work done by the constant force is given by
+\[
+W = Fs\ cos\theta
+\]
+\begin{framed}
+   \textbf{Work} done by a constant force is the product of the force and the displacement in the  direction of the force
+\end{framed}	
+\begin{itemize}
+   \item Work is a \textbf{scalar} quantity, and its S.I. unit is the joule($J$)
+   \item 1 $J$ is the work done by a force of 1 $N$ when an object is displaced by 1 $m$ in the direction of the force
+\end{itemize}	
+
+\subsection{Work done by a variable force}
+Work done by a variable force is equal to the \textbf{area under the force-displacement graph}
+\[
+   W = \int_{s_1}^{s_2} F ds
+\]
+
+\subsection{Work done by an external force on spring}
+By Hooke's Law, the external force needed to produce an extension or compression $x$ in a spring (that has not exceeded its limit of proportionality) is $F = kx$ \\
+wor done in stretching the spring by $x$ is the area under the force-extension graph is
+\[
+W = \frac{1}{2} Fx = \frac{1}{2}kx^2
+\]
+
+\subsection{Work done by a gas}
+For a system of gas in a cylinder with a frictionless piston, if the gas is heated such that it expands slowly at constant pressure, a force $F$ is applied on the piston by the gas molecules to expand against external pressure \\
+
+The work done by the gas is the work done by force $F$ in displacing the piston of cross sectional area $A$ through a small distance $\Delta x$ 
+\[
+   W_{gas} = F\Delta x = pA \Delta x
+\]
+And since $A \Delta x = \Delta V$
+\[
+   W_{gas} = p \Delta V
+\]
+
+\begin{itemize}
+   \item when the gas expands, $\Delta V$ is positive, and hence work done by gas is positive
+   \item when the gas contracts, $\Delta V$ is negative and work done by gas is negative (work is hence done \textbf{on} gas)
+\end{itemize}	
+
+
+
+\section{Energy}
+\subsection{Forms of energy}
+\begin{center}
+   \begin{tabular}{c|L}
+      Name & Form of energy \\
+      \hline
+      Chemical potential energy & energy related to the structural arrangement of atoms or molecules in a substance \\ 
+                                & \\
+      Nuclear energy & energy released from atomic nuclei \\ 
+                     & \\
+      Electrical energy & energy possessed by charge carriers moving under the influence of a potential difference \\
+                        & \\
+      Internal energy & the sum of microscopic KE (associated with random motion) and PE (associated with interatomic of intermolecular forces) \\ 
+                      & \\
+      Gravitational PE & energy due to the position of a mass in a gravtitational field \\
+                       & \\
+      Electrical PE & energy due to the position of a charge in an electric field of another charge / sytem of charges \\
+                    & \\
+      Elastic PE & energy stored due to the stretching or compressing of an object \\
+       & \\
+      Kinetic energy & energy due to motion of a body
+   \end{tabular}
+\end{center}
+
+\subsection{Kinetic energy}
+
+In general, the KE of a body of mass $m$ moving with velocity $v$ can be expressed as
+\[
+E_k = \frac{1}{2}mv^2
+\]
+
+\textbf{Derivation of KE} \\
+Consider a body of mass $m$ moving with initial velocity $u$ and accelerated by a constant force $F$. The body under goes constant acceleration $a$ to a final velocty $v$ over displacement $s$ \\
+
+Since force is in the direction of displacement
+\[
+   W = Fs = (ma)s
+\]
+
+Since $v^2 = u^2 + 2as$ 
+\[
+   s = \frac{v^2 - u^2}{2a}
+\]
+
+substituting into $W = (ma)s$ 
+\[
+   W = ma \left(\frac{v^2 - u^2}{2a}\right)
+\]
+\[
+W = \frac{1}{2}mv^2 - \frac{1}{2}mu^2
+\]
+\begin{framed}
+\[
+   W = \Delta E_k = E_{k,\ final} - E_{k,\ initial}
+\]
+This is known as the \textbf{work-energy theorem}, where the net work done by all forces acting on a body is equal to the change in the KE of the body
+\end{framed}	
+
+
+
+
+
+\subsection{Potential energy}
+Potential energy, usually expressed as $U$ is the energy due to the \textbf{position or shape} of an object. The calculation of PE ususally requires a reference point with is defined to have a PE of $0$ 
+
+\subsection{Gravitational potential energy}
+The GPE of an object of mass $m$ and at height $h$ above the surface of the earth is 
+\[
+E_p = mgh
+\]
+where g is the aceeleration of free fall near Earth's surface
+
+\textbf{Derivation of GPE} \\
+Consider an object being raised upwards at constant velocity, from height $h_1$ to height $h_2$\\
+
+Since $v$ constant, $a = 0$, and the force required is $F = wg$ 
+
+Work done by F in displacing the body upwards is
+\begin{align*}
+   F &= Fs \\
+     &= mg(h_2 - h_1) \\
+     &= mgh_2 - mgh_1
+\end{align*}	
+
+\subsection{Elastic potential energy}
+From earlier, work done in compressing or extending a spring is 
+\[
+W = \frac{1}{2}kx^2
+\]
+The elastic potential energy stored is thus
+\[
+   U_E = \frac{1}{2}kx^2
+\]
+
+
+\subsection{Relationship between force and potential energy}
+For a field of force, the relationship bewteen $F$ and PE $U$ for one dimensional motion is given by 
+\[
+   F = - \frac{dU}{dx}
+\]
+\begin{itemize}
+   \item the magnitude of a force at point x is equal to the \textbf{gradient of the PE curve at x}
+   \item the direction of the force is in the direction of decreasing potential energy
+\end{itemize}	
+
+
+\section{Energy conversion and conservation}
+\subsection{Law of conservation of energy}
+\begin{framed}
+   The \textbf{law of conservation of energy} states that energy cannot be created or destroyed, it can only be converted from one form to another
+\end{framed}	
+
+\subsection{Total mechanical energy and work done on a system}
+In a non-isolated system where work is done by an external force, $W_F$, by law of conservation of energy
+\[
+   (E_p + E_k)_{initial} + W_F = (E_p + E_k)_{final} 
+\]
+\begin{itemize}
+   \item the sum of potential and kinetic energy is aclled mechanical energy
+      \[
+         \text{Mechanical energy} = E_p + E_k
+      \]
+   \item in an isolated system, mechanical energy is conserved
+   \item in a non-isolated system, $W_F$ may be positive or negative
+\end{itemize}	
+
+\subsection{Efficiency}
+\[
+   \text{Efficiency} = \frac{\text{useful energy output}}{\text{total energy input}} \times 100%
+\]
+
+
+\section{Power}
+\begin{framed}
+   Power is define as the rate of work or energy conversion wrt time
+   \[
+   P = \frac{dW}{dt}
+   \]
+
+   If total work $\Delta W$ is done over time interval $\Delta t$, then average power is
+   \[
+      \langle P \rangle = \frac{\Delta W}{\Delta t}
+   \]
+   
+\end{framed}	
+
+\subsection{Relationship between $P$, $F$, and $v$ for a constant force}
+If a constnat force $F$ is applied and does work by moving an object over displacement $s$ parallel to the force in time $t$, then the power can be found by
+\[
+   P = \frac{dW}{dt} = \frac{d(FS)}{dt} = F \frac{ds}{dt}
+\]
+\[
+P = Fv
+\]
+
+
+\subsection{Wind turbines and related calculations}
+KE removed from wind is converted into electrical energy
+
+Mass of air that passes through the area swept by the blades per second is
+\[
+   \text{Mass per second} = \frac{dm}{dt} = \frac{d(\rho v)}{dt} = \rho \frac{d(Ax)}{dt} = \rho A v
+\]
+Loss of KE per second is 
+\[
+   \frac{1}{2}mv^2 - \frac{1}{2} mu^2
+\]
+
+
+
+
+\end{document}	

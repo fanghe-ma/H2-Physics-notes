@@ -1,0 +1,159 @@
+\documentclass[a4paper, 10pt]{article}
+\usepackage[margin = 1in]{geometry}
+\usepackage{amsmath}
+\setlength{\parindent}{0em}
+
+\begin{document}
+
+\section*{Topic 1 - Measurement}
+
+\section{S.I. Base quantities and units}
+Base quantities are fundamental physical quantities used to define other physical quantities. 
+
+The Systeme Internationale d'Unites is based on seven base quantities  \\
+
+\begin{center}
+   \begin{tabular}{c|c|c}
+      \hline 
+      base quantity & base unit & Symbol \\
+      \hline
+      time & second & s \\
+      legnth & metre & m \\
+      mass & kilogram & kg \\
+      current & ampere & A \\
+      temperate & kelvin & K \\
+      amount of substance & mole & mol \\
+      luminous intensity & candela & cd \\
+      \hline
+   \end{tabular}	
+\end{center}	
+
+\section{Derived quantities and their units}
+Derived quantities are physical quantities formed by combining base quantities. Derived units are products and/or quotients of base units.
+
+Derived quantities are formed from base quantities according to a defining equation.
+
+For example
+\begin{center}
+   \begin{tabular}{c|c|c|c|c}
+      \hline
+      Derived quantity & Defining equation & Base units & Derived unit & Symbol \\
+      \hline
+      force & force = mass $\times$ acceleration & $kgms^{-2}$ & newton & N \\
+      \hline
+   \end{tabular}	
+\end{center}	
+
+\section{Homogeneity of Equations}
+Only quantities with the same base units can be added, subtracted or equated, i.e.
+\[
+   A (B+C) =  DE 
+\]
+\begin{center}
+      $AB$, $AC$, and $DE$ have the same units
+\end{center}	
+
+When each of the terms in an equation has the same base units, the equation is \textbf{\textit{homogeneous}} or \textbf{\textit{dimensionally consistent}} \\
+
+An equation can be dimensionally consistent but not physically correct due to
+\begin{itemize}
+   \item wrong coefficients / signs 
+   \item missing / additional terms
+\end{itemize}	
+
+\section{Errors and Uncertaintines}
+\subsection{Measuring instruments and their associated uncertainties}
+   The precision of a instrument is determined by the number of \textbf{\textit{significant figures}} in its measurements, which is in turn determined by \textbf{\textit{the smallest scale division}}
+   \begin{center}
+      \begin{tabular}{c|c|c}
+         \hline
+         Physical Quantity & Instrument & Precision \\
+         \hline 
+         Length & metre rule & 0.1cm \\
+                & vernier calipers & 0.01cm  \\
+                & micrometer screw gauge & 0.001cm \\
+         time & digital stopwatch & 0.01s \\
+         mass & electronic balance & 0.01g \\
+         \hline
+      \end{tabular}
+   \end{center}
+
+\subsection{Systematic and random errors}
+\textbf{\textit{Systematic errors}} result in all readings being either always or above true value by a \textbf{\textit{fixed amount}}
+\begin{itemize}
+   \item can be eliminated if source of error is known
+   \item such as accounting for zero error
+\end{itemize}	
+
+
+\textbf{\textit{random errors}} result in readings being scattered about true value, with erros having equal probability of being positive or negative
+
+Random errors can be \textbf{\textit{reduced}} by 
+\begin{itemize}
+   \item repeating the measurement and taking average value
+   item plotting a graph and drawing line of best fit
+\end{itemize}	
+
+\subsection{Accuracy vs Precision}
+\textbf{\textit{Accuracy}}
+\begin{itemize}
+   \item degree of closeness of readings/mean reading to actual value
+   \item affected by systematic error
+\end{itemize}	
+
+
+\textbf{\textit{Precision}}
+\begin{itemize}
+   \item degree of agreement between repeated measurements
+   \item affected by random error
+\end{itemize}	
+
+\begin{center}
+   \begin{tabular}{c|c c}
+      \hline
+      & Accuracy & Precision \\
+      \hline
+      Instrument & Calibration of instrument & smallest scale division \\ \\
+      Measurements & Closeness of mean to true value & closeness of measurements to one another \\
+      \hline
+   \end{tabular}
+\end{center}
+
+\section{Derived uncertainties}
+For 2 independent measurements of $X$ and $Y$, $X_1$ $Y_1$, each with uncertainty $\Delta X$ and $\Delta Y$  let variable $Z$ be $X \times Y$, find the associated uncertainty $\Delta Z$ 
+\subsection{the upper-lower bound method of uncertainty propagation}
+\begin{align*}
+   \Delta Z &= \frac{Z_{max} - Z_{min}}{2} \\
+            &= \frac{X_{max} \times Y_{max} - X_{min} \times Y_{min}}{2}
+\end{align*}	
+
+\subsection{calcualtion of uncertainties of derived quantities}
+\begin{center}
+   \begin{tabular}{c|c}
+      $Q = aX \pm bY$ & $\Delta Q = |a|\Delta X + |b| \Delta Y$ \\ \\
+      $Q = aX \times Y$ & $\frac{\Delta Q}{Q} = \frac{\Delta X}{X} + \frac{\Delta Y}{Y} $  \\ \\
+      $Q = a\frac{X}{Y}$ & $\frac{\Delta Q}{Q} = \frac{\Delta X}{X} + \frac{\Delta Y}{Y} $  \\ \\
+      $Q = aX^m \times ^nY$ & $\frac{\Delta Q}{Q} = |m|\frac{\Delta X}{X} + |n|\frac{\Delta Y}{Y} $  \\ \\
+      $Q = a\frac{X^m}{Y^n}$ & $\frac{\Delta Q}{Q} = |m|\frac{\Delta X}{X} + |n|\frac{\Delta Y}{Y} $
+   \end{tabular}
+\end{center}
+
+\textbf{\textit{absolute uncertainty}} $\Delta Q$ are expressed to \textbf{\textit{1sf}} \\
+
+\textbf{\textit{fractional uncertainty}} $\frac{\Delta Q}{Q}$ are expressed to \textbf{\textit{2sf}} \\
+
+percentage uncertainty of x is 
+\[
+   \frac{\Delta Q}{Q} \times 100\%
+\]
+
+
+
+
+
+
+
+
+
+
+\end{document}	
