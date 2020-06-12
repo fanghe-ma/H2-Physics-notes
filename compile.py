@@ -15,16 +15,16 @@ def merge(source_paths, output_path):
 
 if __name__ == '__main__':
     paths = []
-    home = os.getcwd()
+    home = './Chapters/' 
     for i in os.listdir(home):
         try:
-            for j in os.listdir(i):
+            for j in os.listdir(home + i):
                 if j[-3:] == 'pdf':
-                    paths.append('./' + i + '/' + j)
+                    paths.append(home +  i + '/' + j)
         except:
             continue
-    
-    paths.sort(key = lambda x: int(x.split('/')[1].split('_')[0]))
+
+    paths.sort(key = lambda x: int(x.split('/')[2].split('_')[0]))
 
     print("paths collected")
     merge(paths, './Physics_Notes.pdf')
