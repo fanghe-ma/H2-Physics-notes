@@ -6,10 +6,11 @@ Heavily inspired by [Gilles Castel's][1] article on [taking notes in math lectur
 Figures are drawn in Keynote.
 > Group objects => Copy => Open Preview => New from clipboard => Export as PDF.
 
-Vim plugin manager: Vundle
-Vim LaTex plugin: Vimtex
-Snippet plugin: SirVer/UltiSnips
-PDF viewer: Skim from Homebrew
+Setup:
+- Vim plugin manager: Vundle <br>
+- Vim LaTex plugin: Vimtex
+- Snippet plugin: SirVer/UltiSnips
+- PDF viewer: Skim from Homebrew
 
 [1]: https://castel.dev
 [2]: https://castel.dev/post/lecture-notes-1/
