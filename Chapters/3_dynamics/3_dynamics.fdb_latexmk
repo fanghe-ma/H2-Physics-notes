@@ -1,14 +1,12 @@
 # Fdb version 3
-["pdflatex"] 1590674073 "3_dynamics.tex" "3_dynamics.pdf" "3_dynamics" 1590674073
+["pdflatex"] 1592017847 "3_dynamics.tex" "3_dynamics.pdf" "3_dynamics" 1592017848
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
-  "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm" 1136768653 1532 9162035f4e7176612125649e348e2195 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
-  "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb" 1248133631 36554 b67dc2cfa451409e100b3fcf5f506509 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1248133631 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb" 1248133631 37912 77d683123f92148345f3fc36a38d9ab1 ""
@@ -66,9 +64,9 @@
   "/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1557342064 3277517 23507ed665b4dd9046f0f2a94bbef2be ""
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1563377068 4259636 3f5f6d0ad4dbbbbb827f1a5d8d136b61 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "3_dynamics.aux" 1590674073 1050 1d796f17d7bdea15741dac7b8461f449 "pdflatex"
-  "3_dynamics.tex" 1590674071 4532 364040f052110e7c47345ef2ff8c2f75 ""
+  "3_dynamics.aux" 1592017848 1050 1d796f17d7bdea15741dac7b8461f449 "pdflatex"
+  "3_dynamics.tex" 1592017846 4505 b347b5b099a2655685c8b2a3de42d034 ""
   (generated)
-  "3_dynamics.aux"
   "3_dynamics.pdf"
   "3_dynamics.log"
+  "3_dynamics.aux"
