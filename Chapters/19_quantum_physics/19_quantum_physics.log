@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.17)  14 JUN 2020 13:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.17)  14 JUN 2020 14:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -487,15 +487,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 422--423
 
  []
 
-./19_quantum_physics.tex:426: Undefined control sequence.
-l.426    \Delta x \Delta p_x \gege
-                                   h
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 [7] (./19_quantum_physics.aux) ) 
 Here is how much of TeX's memory you used:
  4045 strings out of 492616
@@ -506,7 +497,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  41i,14n,39p,368b,296s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on 19_quantum_physics.pdf (7 pages, 385239 bytes).
+Output written on 19_quantum_physics.pdf (7 pages, 385236 bytes).
 PDF statistics:
  179 PDF objects out of 1000 (max. 8388607)
  118 compressed objects within 2 object streams

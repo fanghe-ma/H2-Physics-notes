@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1592114259 "19_quantum_physics.tex" "19_quantum_physics.pdf" "19_quantum_physics" 1592114259
+["pdflatex"] 1592114665 "19_quantum_physics.tex" "19_quantum_physics.pdf" "19_quantum_physics" 1592114666
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -72,8 +72,8 @@
   "/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1557342064 3277517 23507ed665b4dd9046f0f2a94bbef2be ""
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1563377068 4259636 3f5f6d0ad4dbbbbb827f1a5d8d136b61 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "19_quantum_physics.aux" 1592114195 2848 9f29461bd3907560066e8e3f6f82658e "pdflatex"
-  "19_quantum_physics.tex" 1592114257 15664 42f1acf502d7110002b9d5a4a26860fe ""
+  "19_quantum_physics.aux" 1592114666 2848 9f29461bd3907560066e8e3f6f82658e "pdflatex"
+  "19_quantum_physics.tex" 1592114663 15655 62fd8d8bb1943d6567aeaebe61647991 ""
   "figures/1.pdf" 1591595141 20624 cd30bb27287e35796be49a88614e8665 ""
   "figures/10.pdf" 1592112850 23977 7bfc04f56111218c63ac3099435c81c3 ""
   "figures/2.pdf" 1591598483 13481 94318a5475296e8794b56bcd1fcc09e4 ""
@@ -85,6 +85,6 @@
   "figures/8.pdf" 1591753848 25307 1812040c4fdc46924856ffd83e5cc75e ""
   "figures/9.pdf" 1592112149 75811 38c8854c0d6a7f21d82b58bf63a771e0 ""
   (generated)
-  "19_quantum_physics.pdf"
   "19_quantum_physics.log"
   "19_quantum_physics.aux"
+  "19_quantum_physics.pdf"
