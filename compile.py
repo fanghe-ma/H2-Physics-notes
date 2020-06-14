@@ -1,4 +1,5 @@
 import os
+import sys
 from PyPDF2 import PdfFileReader, PdfFileWriter
 
 def merge(source_paths, output_path):
@@ -13,6 +14,8 @@ def merge(source_paths, output_path):
         pdf_writer.write(out)
         print("compiled")
 
+#pass argument 1 in command line for sorting in reverse order
+
 if __name__ == '__main__':
     paths = []
     home = './Chapters/' 
@@ -24,7 +27,13 @@ if __name__ == '__main__':
         except:
             continue
 
-    paths.sort(key = lambda x: int(x.split('/')[2].split('_')[0]))
+    try:
+        if sys.argv[1] == '1':
+            paths.sort(key = lambda x: 20 - int(x.split('/')[2].split('_')[0]))
+    except:
+      paths.sort(key = lambda x: int(x.split('/')[2].split('_')[0]))
+
+
 
     print("paths collected")
     merge(paths, './Physics_Notes.pdf')
