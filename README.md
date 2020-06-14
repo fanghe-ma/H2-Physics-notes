@@ -1,7 +1,7 @@
 # H2-Physics-notes
 Notes for A Level H2 Physics (2020)
 
-Heavily inspired by [Gilles Castel's][1] article on [taking notes in math lectures with LaTex and Vim][2]. 
+Heavily inspired by [Gilles Castel's][1] article on [taking notes in math lectures with LaTeX and Vim][2]. 
 
 Setup:
 - Vim plugin manager: Vundle <br>
