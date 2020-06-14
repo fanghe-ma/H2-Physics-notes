@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.17)  10 JUN 2020 09:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.17)  14 JUN 2020 13:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -456,20 +456,60 @@ File: figures/8.pdf Graphic file (type pdf)
 <use figures/8.pdf>
 Package pdftex.def Info: figures/8.pdf  used on input line 334.
 (pdftex.def)             Requested size: 216.81pt x 55.40155pt.
-[5 <./figures/7.pdf> <./figures/8.pdf>] [6] (./19_quantum_physics.aux) ) 
+[5 <./figures/7.pdf> <./figures/8.pdf>]
+<figures/9.pdf, id=116, 1572.87625pt x 312.16624pt>
+File: figures/9.pdf Graphic file (type pdf)
+<use figures/9.pdf>
+Package pdftex.def Info: figures/9.pdf  used on input line 347.
+(pdftex.def)             Requested size: 216.81pt x 43.02658pt.
+<figures/10.pdf, id=117, 940.51375pt x 451.6875pt>
+File: figures/10.pdf Graphic file (type pdf)
+<use figures/10.pdf>
+Package pdftex.def Info: figures/10.pdf  used on input line 362.
+(pdftex.def)             Requested size: 361.34999pt x 173.53838pt.
+ [6 <./figures/9.pdf> <./figures/10.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 376--377
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
+
+ []
+
+./19_quantum_physics.tex:426: Undefined control sequence.
+l.426    \Delta x \Delta p_x \gege
+                                   h
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[7] (./19_quantum_physics.aux) ) 
 Here is how much of TeX's memory you used:
- 4035 strings out of 492616
- 56760 string characters out of 6129481
- 141707 words of memory out of 5000000
- 7881 multiletter control sequences out of 15000+600000
+ 4045 strings out of 492616
+ 56965 string characters out of 6129481
+ 142707 words of memory out of 5000000
+ 7889 multiletter control sequences out of 15000+600000
  8724 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,14n,39p,285b,296s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,14n,39p,368b,296s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on 19_quantum_physics.pdf (6 pages, 278856 bytes).
+Output written on 19_quantum_physics.pdf (7 pages, 385239 bytes).
 PDF statistics:
- 151 PDF objects out of 1000 (max. 8388607)
- 100 compressed objects within 1 object stream
+ 179 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
