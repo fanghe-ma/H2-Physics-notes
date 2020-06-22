@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1591516867 "16_electromagnetism.tex" "16_electromagnetism.pdf" "16_electromagnetism" 1591516867
+["pdflatex"] 1592657989 "16_electromagnetism.tex" "16_electromagnetism.pdf" "16_electromagnetism" 1592657989
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -61,8 +61,8 @@
   "/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1557342064 3277517 23507ed665b4dd9046f0f2a94bbef2be ""
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1563377068 4259636 3f5f6d0ad4dbbbbb827f1a5d8d136b61 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "16_electromagnetism.aux" 1591516803 1605 aef97ee847dd598c3a6b9db4b3741c17 "pdflatex"
-  "16_electromagnetism.tex" 1591516866 7344 a379eb020cc9480f88636907c94704e4 ""
+  "16_electromagnetism.aux" 1592657989 1605 aef97ee847dd598c3a6b9db4b3741c17 "pdflatex"
+  "16_electromagnetism.tex" 1592657972 7336 e88e99b47b15abf5e074ba1c6f17275d ""
   "figures/1.pdf" 1591457165 16907 e473c7da8323813200eb9531216110d4 ""
   "figures/2.pdf" 1591458125 6760 6ce17dce655c0bb36b3cd95e4fd80809 ""
   "figures/3.pdf" 1591510022 3595 f30468c9a12ee4ce5df20f9886f63c8c ""
@@ -74,5 +74,5 @@
   "figures/9.pdf" 1591516781 21473 34c208dbe0d7ace2698ff56a675d58aa ""
   (generated)
   "16_electromagnetism.aux"
-  "16_electromagnetism.pdf"
   "16_electromagnetism.log"
+  "16_electromagnetism.pdf"

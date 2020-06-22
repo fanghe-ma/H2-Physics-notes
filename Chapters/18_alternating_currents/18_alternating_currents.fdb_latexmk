@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1591586319 "18_alternating_currents.tex" "18_alternating_currents.pdf" "18_alternating_currents" 1591586319
+["pdflatex"] 1592713366 "18_alternating_currents.tex" "18_alternating_currents.pdf" "18_alternating_currents" 1592713366
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -72,12 +72,12 @@
   "/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1557342064 3277517 23507ed665b4dd9046f0f2a94bbef2be ""
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1563377068 4259636 3f5f6d0ad4dbbbbb827f1a5d8d136b61 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "18_alternating_currents.aux" 1591586319 1033 6485bac1c2fb08815cbe13ea3ab0ea4a "pdflatex"
-  "18_alternating_currents.tex" 1591586316 5063 092d43f565aa1d5f35a4424d6bba4fe8 ""
+  "18_alternating_currents.aux" 1592713366 1033 6485bac1c2fb08815cbe13ea3ab0ea4a "pdflatex"
+  "18_alternating_currents.tex" 1592713363 5064 b2a232131f5d1401cf1b9d72ced50eed ""
   "figures/1.pdf" 1591544144 17600 ce3c841a1f3ea15ca5d28f1211eaa385 ""
   "figures/2.pdf" 1591585061 165100 2e0c624e9f21f8fbb5da4761b0840444 ""
   "figures/3.pdf" 1591586304 42785 9e62384c39c020f1e50c13676b0b932d ""
   (generated)
-  "18_alternating_currents.log"
-  "18_alternating_currents.pdf"
   "18_alternating_currents.aux"
+  "18_alternating_currents.pdf"
+  "18_alternating_currents.log"
