@@ -9,7 +9,7 @@ Setup:
 - Snippet plugin: SirVer/UltiSnips
 - PDF viewer: Skim from Homebrew
 - Drawing figures: Keynote 
-> Group objects => Copy => Open Preview => New from clipboard => Export as PDF.
+
 
 
 [1]: https://castel.dev
