@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1591580719 "9_first_law_of_thermodynamcis.tex" "9_first_law_of_thermodynamcis.pdf" "9_first_law_of_thermodynamcis" 1591580720
+["pdflatex"] 1592823341 "9_first_law_of_thermodynamcis.tex" "9_first_law_of_thermodynamcis.pdf" "9_first_law_of_thermodynamcis" 1592828111
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -63,13 +63,13 @@
   "/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1557342064 3277517 23507ed665b4dd9046f0f2a94bbef2be ""
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1563377068 4259636 3f5f6d0ad4dbbbbb827f1a5d8d136b61 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "9_first_law_of_thermodynamcis.aux" 1591580720 1919 161d07aabbb5825f53e6abc92bec0cf0 "pdflatex"
-  "9_first_law_of_thermodynamcis.tex" 1591580717 11371 517a6937e9a2b9bc0f3216cbaae3a869 ""
+  "9_first_law_of_thermodynamcis.aux" 1592823341 1919 161d07aabbb5825f53e6abc92bec0cf0 "pdflatex"
+  "9_first_law_of_thermodynamcis.tex" 1592823345 11372 068db3787b909228fd3dc8dcee438095 ""
   "figures/adiabetic_process.pdf" 1590846990 15079 58c92487751302255c93a151451f774b ""
   "figures/isobaric_expansion.pdf" 1590837838 13111 226c4c5bf1fd97c6f26145b520fe1e5b ""
   "figures/isothermal_process.pdf" 1590846646 13914 845e1bef208083a55112099faceea845 ""
   "figures/isovolumetric_process.pdf" 1590845061 8427 7421cc0c0d146229d651ce969f3864f3 ""
   (generated)
+  "9_first_law_of_thermodynamcis.aux"
   "9_first_law_of_thermodynamcis.pdf"
   "9_first_law_of_thermodynamcis.log"
-  "9_first_law_of_thermodynamcis.aux"
