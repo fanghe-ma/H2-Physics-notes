@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1592017847 "3_dynamics.tex" "3_dynamics.pdf" "3_dynamics" 1592017848
+["pdflatex"] 1595845810 "3_dynamics.tex" "3_dynamics.pdf" "3_dynamics" 1595845811
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -64,9 +64,9 @@
   "/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1557342064 3277517 23507ed665b4dd9046f0f2a94bbef2be ""
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1563377068 4259636 3f5f6d0ad4dbbbbb827f1a5d8d136b61 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "3_dynamics.aux" 1592017848 1050 1d796f17d7bdea15741dac7b8461f449 "pdflatex"
-  "3_dynamics.tex" 1592017846 4505 b347b5b099a2655685c8b2a3de42d034 ""
+  "3_dynamics.aux" 1595845811 1050 1d796f17d7bdea15741dac7b8461f449 "pdflatex"
+  "3_dynamics.tex" 1595845807 4505 bfc12182a9d22048c087aae39e62dd83 ""
   (generated)
-  "3_dynamics.pdf"
   "3_dynamics.log"
   "3_dynamics.aux"
+  "3_dynamics.pdf"
